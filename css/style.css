@@ -107,21 +107,3 @@ font-size: 11px;
 padding-top: .5em;
 }
 
-
-.attribution
-{ 
-font-size: 18px;
-text-align: center; 
-display:flex;
-justify-content: center;
-position: relative;
-bottom:35em;
-}
-.attribution a 
-{
-color: white;
-}
-
-.attribution a:visited {
-color:white;
-}
