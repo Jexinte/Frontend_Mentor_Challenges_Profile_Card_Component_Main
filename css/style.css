@@ -29,19 +29,14 @@ margin:8em auto;
 
 background-color: white;
 border-radius: 20px;
-
 margin-inline: 1.5em;
 }
-.card .banner {
-    width: 100%;
-    background-image: url('/images/bg-pattern-card.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-/* .card .banner img {
 
+.card .banner img {
+border-top-right-radius:10px ;
+border-top-left-radius:10px ;
 width:100% ;
-} */
+}
 .profile {
 display: flex;
 flex-direction: column;
