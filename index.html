@@ -2,34 +2,59 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Profile card component</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Frontend Mentor | Profile card component - Yokke</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+
 </head>
 <body>
-  Victor Crest
-  26
-  London
+  <main>
+    <section class="container">
 
-  80K
-  Followers
+<!-- CARD-->
+      <div class="card">
+        
+          <div class="banner">
+            <img src="/images/bg-pattern-card.svg" alt="blue image">
+          </div>
 
-  803K
-  Likes
+          <div class="profile">
+            <img src="./images/image-victor.jpg" alt="">
+            <h1>Victor Crest <span id="age">26</span> <br> <span id="city">London</span></h1>
+          </div>
+        
+          <div class="stats">
+            
+            <div class="stats1">
+            <h2>80K</h2> 
+              <p class="thing">Followers</p>  
+            </div>
 
-  1.4K
-  Photos
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+            <div class="stats2">
+              <h2>803K</h2> 
+              <p class="thing">Likes</p>  
+            </div>
+  
+            <div class="stats3">
+              <h2>1.4K</h2> 
+              <p class="thing">Photos</p>  
+            </div>
+            
+
+          </div>
+        
+      </div>
+    <!-- END OF CARD-->
+
+    </section>
+  
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/Jexinte" target="_blank">Yokke</a>.
+    </div>
+
+  </main>
 </body>
 </html>
